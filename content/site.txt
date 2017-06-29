@@ -1,0 +1,29 @@
+Title: Endlyss Designs
+
+----
+
+Author: Alyssa Leverenz
+
+----
+
+Description: Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.
+
+----
+
+Copyright: © (date: Year) Copyright (link: https://endlyssdesigns.com text: Endlyss Designs)
+
+----
+
+Logolight: logo-light.png
+
+----
+
+Logolightretina: logo-light@2x.png
+
+----
+
+Logodark: logo-dark.png
+
+----
+
+Logodarkretina: logo-dark@2x.png

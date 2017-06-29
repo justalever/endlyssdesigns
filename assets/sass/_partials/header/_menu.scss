@@ -1,0 +1,14 @@
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+		@include breakpoint(medium) {
+			flex-direction: column;
+	 }
+	li {
+		padding:0 1rem;
+	}
+
+}

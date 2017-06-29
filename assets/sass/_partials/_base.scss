@@ -1,0 +1,18 @@
+body {
+	background-color: #F6F6F6;
+	font-family: $body;
+	line-height: 1.6rem;
+	font-size: 1.15rem;
+	color: $brand-secondary;
+	position: relative;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: $heading;
+}
+a {
+	color: $brand-primary;
+	text-decoration: none;
+	&:hover {
+		color: darken($brand-primary, 10%);
+	}
+}

@@ -1,0 +1,29 @@
+Title: Home
+
+----
+
+Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+
+----
+
+Text: 
+
+----
+
+Heroimage: alyssa-hero.jpg
+
+----
+
+Introheading: I’m Alyssa Leverenz,  a freelance brand strategist.
+
+----
+
+Introsubheading: I help small businesses discover and articulate their purpose with authority and authenticity.
+
+----
+
+Introctatext: Learn more about me
+
+----
+
+Introctalink: about

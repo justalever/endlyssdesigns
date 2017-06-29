@@ -1,0 +1,44 @@
+title: Site
+
+pages: default
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  author:
+    label: Author
+    type:  text
+
+  description:
+    label: Description
+    type:  textarea
+    
+  copyright:
+    label: Copyright
+    type:  textarea
+
+  branding:
+    label: Brand Settings
+    type: headline
+
+  logolight:
+    label: Logo Light 
+    type: image 
+    width: 1/2
+
+  logolightretina:
+    label: Logo Light Retina
+    type: image 
+    width: 1/2
+
+  logodark:
+    label: Logo Dark
+    type: image
+    width: 1/2
+
+  logodarkretina:
+    label: Logo Dark Retina
+    type: image
+    width: 1/2
