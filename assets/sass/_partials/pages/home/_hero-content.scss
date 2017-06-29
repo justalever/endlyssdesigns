@@ -44,6 +44,7 @@
 			line-height: 70px;
 			padding: 0 2rem;
 			font-size: 1.35rem;
+			border-top-left-radius: 8px;
 			&:hover {
 				background: lighten($brand-primary, 5%);
 			}
