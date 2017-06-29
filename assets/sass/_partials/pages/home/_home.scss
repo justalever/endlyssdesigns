@@ -1,9 +1,14 @@
 .hero-background {
 	height: 862px;
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: -130px 0;
 	background-size: 714px 862px;
+	position: relative;
+	z-index: 1;
 		@include breakpoint(medium) {
 			background-size: 357px 431px;
+			background-position: 0 0;
 	 }
 }
+
+@import "hero-content";

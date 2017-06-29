@@ -1,0 +1,61 @@
+.hero-content {
+	background: white url('../images/overlay-logo-effect.png') no-repeat bottom right;
+	width: 764px;
+	height: 480px;
+	position: absolute;
+	top: 185px;
+	right: 4rem;
+	box-shadow: 0 10px 30px rgba(black, .1);
+	
+	.hero-inner {
+		padding: 6rem 4rem 0 4rem;
+		position: relative;
+	}
+	.hero-heading {
+		font-size: 2.8rem;
+		line-height: 3rem;
+		margin-bottom: 0;
+		position: relative;
+		&:before {
+			content: "";
+			background: $brand-primary;
+			width: 50px;
+			height: 4px;
+			position: absolute;
+			top:-1.5rem;
+			left:0;
+		}
+	}
+	.hero-subheading {
+		font-size: 1.3rem;
+		line-height: 2rem;
+		margin: .8rem 0;
+	}
+	.hero-cta-block {
+		position: absolute;
+		bottom: -182px;
+		right:0px;
+		.hero-cta {
+			background: $brand-primary;
+			color: white;
+			display:inline-block;
+			width: 303px;
+			height: 70px;
+			line-height: 70px;
+			padding: 0 2rem;
+			font-size: 1.35rem;
+			&:hover {
+				background: lighten($brand-primary, 5%);
+			}
+		}
+		.arrow-forward {
+			display: inline-block;
+			fill: white;
+			width: 38px;
+			height: 38px;
+			position: relative;
+			top: .8rem;
+			left: 5rem;
+		}
+	}
+}

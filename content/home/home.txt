@@ -14,7 +14,7 @@ Heroimage: alyssa-hero.jpg
 
 ----
 
-Introheading: I’m Alyssa Leverenz,  a freelance brand strategist.
+Introheading: I’m Alyssa Leverenz,  <br/> a freelance brand strategist.
 
 ----
 
