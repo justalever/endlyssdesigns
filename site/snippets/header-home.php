@@ -15,12 +15,12 @@
 </head>
 <body>
 
-  <header class="header" role="banner">
+  <header class="header header-home" role="banner">
     <div class="container-fluid">
       <div class="row between-xs">
         <div class="branding">
           <a class="logo" href="<?= url() ?>" rel="home" title="<?php echo $site->title() ?>">
-            <?php if($image = $site->image('logo-dark@2x.png')): ?>
+            <?php if($image = $site->image('logo-light@2x.png')): ?>
               <img src="<?php echo $image->url() ?>" alt="<?php echo $site->title() ?>">
             <?php endif ?>
          </a>

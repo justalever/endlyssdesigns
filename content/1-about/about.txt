@@ -7,3 +7,31 @@ Intro: This page demonstrates how you can utilize subpages to store content, lik
 ----
 
 Text: The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+
+----
+
+Heading: Learn what I do
+
+----
+
+Subheading: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.
+
+----
+
+Leftcolumn: 
+
+I’m (link: https://twitter.com/endlyssdesigns text:  Alyssa Leverenz), a freelance brand strategist. What interests me the most is the grand purpose that leads branding campaigns. That is what I am here to help embrace for small businesses looking to achieve visibility, credibility and long-standing success. 
+
+**ENDLYSS DESIGNS** is my freelance brand strategy consultancy. I work independently, partnering with startups and small businesses to provide the marketing support necessary to achieve long-term business goals.
+
+My knack for communication arts began in 2007 while earning a Bachelor of Arts degree in Graphic Design and Public Relations, followed by a Master of Arts degree in Strategic Communication and Leadership. That journey led me to cross paths with an exceptionally creative individual. (Fellow classmate then, husband/partner at (link: https://coupleofcreatives.com text: Couple of Creatives) now.)
+
+----
+
+Rightcolumn: 
+
+Working as a freelance designer and consultant since 2010, I’ve had opportunities to collaborate with many bright visionaries from various industries. My enthusiasm for making connections and continuously learning are what keep me inspired and creating higher standards for my work.
+
+The ultimate aim of my work is to support the entrepreneurial mindset in people that have something meaningful to offer the world.
+
+Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.

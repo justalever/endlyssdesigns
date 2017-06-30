@@ -1,13 +1,14 @@
 .header { 
 	padding: 2rem 0;
+	@import "menu";
+	@import "branding";
+}
+
+.header-home {
 	position: absolute;
 	width: 100%;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 99;
-	
-	@import "menu";
-	@import "branding";
-
 }

@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<?php snippet('header-home') ?>
 <?php snippet('hero-background') ?>
 
   <main class="main" role="main">

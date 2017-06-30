@@ -1,0 +1,29 @@
+.about-content {
+	.about-title {
+		margin-bottom: 1rem;
+		position: relative;
+		&:before {
+			content: "";
+			width: 50px;
+			height: 4px;
+			position: absolute;
+			top: -2rem;
+			left: 50%;
+			margin-left: -25px;
+			background: $brand-primary;
+		}
+	}
+	.about-subheading p { 
+		margin:0 auto 1rem auto;
+		max-width: 550px;
+		font-size: 1.3rem;
+	}
+	.about-content-columns {
+		padding: 1rem 0 2rem 0;
+		.content-area {
+			padding: 0 3.5rem;
+			font-size: 1.15rem;
+		}
+	}
+
+}

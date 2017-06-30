@@ -9,7 +9,21 @@ fields:
     label: Title
     type: title
     
-  intro:
-    label: Intro
+  heading:
+    label: Main Heading
+    type: text
+
+  subheading:
+    label: Subheading
     type: textarea
-    
+
+  leftcolumn:
+    label: Left Column Content
+    type: textarea
+    width: 1/2
+
+  rightcolumn:
+    label: Right Column Content
+    type: textarea
+    width: 1/2
+  
