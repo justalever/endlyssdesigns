@@ -27,3 +27,80 @@ Introctatext: Learn more about me
 ----
 
 Introctalink: about
+
+----
+
+Brandstrategyblocktitle: Brand Strategy Consultancy For Small Businesses
+
+----
+
+Brandstrategycontent: Strong branding is achieved when a business is in control of all the components required to fulfill the brand promise while maintaining a positive public image and pleasant customer experience.
+
+----
+
+Processtitle: Understand my process
+
+----
+
+Processsubhead: Learn my creative process and what to expect from our partnership.
+
+----
+
+Processctatext: Contact Me
+
+----
+
+Processctalink: contact
+
+----
+
+Processmodules: 
+
+- 
+  title: Discovery
+  content: >
+    It all begins with a free 15-minute
+    discovery meeting. Through my signature
+    questionnaire, I learn about your
+    business state of affairs, long-term
+    goals and expectations in working
+    together.
+- 
+  title: Agreement
+  content: >
+    After our initial conversation, we sign
+    a Project Service Agreement to launch
+    our partnership and get straight down to
+    business.
+- 
+  title: Proposal
+  content: >
+    I formulate a marketing proposal
+    outlining the full project scope
+    including specific deliverables,
+    available resources, personnel
+    responsibilities, timeline and budget
+    options.
+- 
+  title: Research
+  content: >
+    Each new project begins with extensive
+    business assessment and market research.
+    This phase of the process will help
+    shape important messaging to be
+    communicated in marketing materials.
+- 
+  title: Strategy
+  content: >
+    A custom marketing plan is designed to
+    achieve your business goals based on the
+    research data we collect and ideas we
+    conceptualize together as a team.
+- 
+  title: Implementation
+  content: >
+    Upon reaching an agreement, I will be in
+    charge of liaising the project from
+    start to finish to ensure objectives are
+    reached and expectations are met, if not
+    exceeded.

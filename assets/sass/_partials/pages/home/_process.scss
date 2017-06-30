@@ -1,0 +1,72 @@
+.process {
+		counter-reset: process-counter;
+		padding: 4rem 0;
+}
+
+.process-intro {
+	padding: 0 .5rem 2rem .5rem;
+	.process-intro-title {
+		margin: 0;
+	}
+	.process-intro-subheading p {
+		margin: 0 0 1rem 0;
+	}
+	.process-cta {
+		margin-top: 1rem;
+	}
+}
+
+
+.process-loop {
+	padding-left: 0rem;
+}
+.process-module {
+	background: white;
+	padding: 2.4rem 2.4rem 2rem 2.4rem;
+	counter-increment: process-counter;
+	position: relative;
+	font-size: 1.1rem;
+	line-height: 1.8rem;
+	box-shadow: 0 5px 10px rgba(black, .1);
+	height: 260px;
+	margin: 0 .5rem 2rem .5rem;
+	@include transition(all ease .2s);
+	 &:before {
+	 		position: absolute;
+	 		bottom: 30px;
+	 		right: 20px;
+	 		font-size: 4rem;
+	 		font-weight: bold;
+	 		font-family: Helvetica, Arial, sans-serif;
+	 		content: counter(process-counter);
+	 		color: #eee;
+	 }
+	&:hover {
+		background: $brand-primary;
+		color: white;
+		.process-module-title {
+			color: white;
+			&:before {
+				background-color: white;
+			}
+		}
+	}
+	.process-module-title {
+		color: $brand-primary;
+		font-size: 1.6rem;
+		position: relative;
+		margin-bottom: .8rem;
+		&:before {
+			content: "";
+			position: absolute;
+			background-color: $brand-primary;
+			height: 2px;
+			width: 50px;
+			top: -20px;
+		}
+	}
+	.process-module-content p {
+		margin: 0;
+		padding: 0;
+	}
+}

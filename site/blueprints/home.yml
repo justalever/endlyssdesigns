@@ -14,10 +14,12 @@ fields:
   heroimage:
     label: Hero Image
     type: image 
+    required: true
 
   introheading:
     label: Intro Heading
     type: text
+    required: true
 
   introsubheading: 
     label: Intro Subheading
@@ -27,13 +29,66 @@ fields:
     label: Intro Call To Action Text 
     type: text 
     width: 1/2
+    required: true
 
   introctalink:
     label: Intro Call To Action Link
     type: page
     width: 1/2
-  
+    required: true
 
+  brandstrategyblock:
+    label: Brand Strategy Block 
+    type: headline
+
+  brandstrategyblocktitle:
+    label: Title Text
+    required: true
+
+  brandstrategycontent:
+    label: Content
+    type: textarea
+
+  process:
+    label: Process
+    type: headline
+
+  processtitle:
+    label: Process Section Title 
+    type: text
+    required: true
+  
+  processsubhead:  
+    label: Process Subheading
+    type: textarea
+
+  processctatext:
+    label: CTA Button Text 
+    type: text 
+    width: 1/2
+    required: true
+
+  processctalink:
+    label: CTA Button Link
+    type: page
+    width: 1/2
+    require: true
+
+  processmodules:
+    label: Process Modules
+    type: structure
+    style: table
+    fields:
+      title:
+        label: Title 
+        type: text 
+      content:
+        label: Content 
+        type: textarea
+
+
+
+  
 
 
  

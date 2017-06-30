@@ -1,0 +1,28 @@
+.brand-strategy-block {
+	background: $brand-primary;
+	color: white;
+	padding: 5rem 0;
+	position: relative;
+	&:before {
+		content: "";
+		background-image: url('../images/lighting-bolt-icon.svg');
+		background-repeat: no-repeat;
+		position: absolute;
+		top:-30px;
+		left: 50%;
+		margin-left: -30px;
+		width: 60px;
+		height: 60px;
+		z-index: 2;
+
+	}
+	.brand-strategy-title {
+		margin-bottom: 0;
+		font-size: 2.2rem;
+	}
+	.brand-strategy-content {
+		text-align: center;
+		font-size: 1.4rem;
+	}
+}
+

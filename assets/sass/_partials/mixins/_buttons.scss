@@ -1,0 +1,16 @@
+@mixin button($color) {
+	background: $color;
+	color: white;
+	display: inline-block;
+	height: 48px;
+	line-height: 48px;
+	position: relative;
+	padding: 0 1.8rem;
+	box-shadow: 0 1px 3px rgba(black, .2);
+	border-radius: 3px;
+	@include transition(all .2s ease-in-out);
+	&:hover, &:focus {
+		transform: translateY(-1px);
+		background: lighten($color, 5%);
+	}
+}

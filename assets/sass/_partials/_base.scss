@@ -1,10 +1,12 @@
 body {
 	background-color: #F6F6F6;
 	font-family: $body;
-	line-height: 1.6rem;
-	font-size: 1.15rem;
+	font-size: 1.2rem;
+	line-height: 2rem;
 	color: $brand-secondary;
 	position: relative;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 }
 
 a {

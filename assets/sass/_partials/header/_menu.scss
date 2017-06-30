@@ -9,26 +9,22 @@
 	 }
 	li {
 		padding: 0 1rem;
+		@include transition(all ease .2s);
+		&:last-of-type {
+			padding-right: 0;
+		}
 	}
 	a {
 		color: $brand-secondary;
+		position: relative;
+		@include transition(all ease .2s);
+		&:hover {
+			color: lighten($brand-primary, 5%);
+		}
 	}
 	.hire-me a {
-		background: $brand-primary;
-		color: white;
-		display: inline-block;
-		height: 48px;
-		line-height: 48px;
-		position: relative;
+		@include button($brand-primary);
 		top: -.6rem;
-		padding: 0 1.8rem;
-		box-shadow: 0 1px 3px rgba(black, .2);
-		border-radius: 3px;
-		@include transition(all .2s ease-in-out);
-		&:hover, &:focus {
-			transform: translateY(-1px);
-			background: lighten($brand-primary, 5%);
-		}
 	}
 
 }
