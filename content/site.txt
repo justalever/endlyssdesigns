@@ -27,3 +27,15 @@ Logodark: logo-dark.png
 ----
 
 Logodarkretina: logo-dark@2x.png
+
+----
+
+Globalctaheading: Small business in need of *branding*?
+
+----
+
+Globalctabuttontext: Let's Talk
+
+----
+
+Globalctabuttonlink: contact

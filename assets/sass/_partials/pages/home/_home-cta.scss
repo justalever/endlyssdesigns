@@ -1,0 +1,19 @@
+.home-cta {
+	height: 622px;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	color: white;
+	.home-cta-inner {
+		padding: 4rem 0;
+	}
+	.home-cta-text p {
+		font-size: 1.5rem;
+		font-style: italic;
+	}
+	.home-cta-citation p {
+		font-size: .9rem;
+		line-height: normal;
+		margin-bottom: 2rem;
+	}
+}

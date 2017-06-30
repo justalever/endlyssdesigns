@@ -42,3 +42,25 @@ fields:
     label: Logo Dark Retina
     type: image
     width: 1/2
+
+  globalcta:
+    label: Global Call To Action
+    type: headline
+
+  globalctaheading:
+    label: Heading
+    type: textarea
+    required: true
+
+  globalctabuttontext:
+    label: Button Text
+    type: text
+    width: 1/2
+    require: true
+
+  globalctabuttonlink:
+    label: Button Link
+    type: page
+    width: 1/2
+    require: true
+

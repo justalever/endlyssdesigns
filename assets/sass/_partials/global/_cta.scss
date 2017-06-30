@@ -1,0 +1,16 @@
+$global-cta-bg-color: #3F3F3F;
+.global-cta {
+	background-color: $global-cta-bg-color;
+	padding: 5rem 0;
+	color: white;
+
+	.global-cta-heading p {
+		font-size: 2.5rem;
+		font-family: $heading;
+		margin: 0 0 2rem 0;
+		em {
+			color: $brand-primary;
+			font-style: italic;
+		}
+	}
+}

@@ -86,6 +86,32 @@ fields:
         label: Content 
         type: textarea
 
+  homecta:
+    label: Call To Action
+    type: headline
+
+  homectabackgroundimage:
+    label: Call To Action Background Image
+    type: image 
+    required: true
+  homectacopy:
+    label: Content
+    type: textarea
+    required: true
+  homectacitation:
+    label: Citation
+    type: text
+    required: true
+  homectabuttontext:
+    label: Button Text 
+    type: text
+    required: true
+    width: 1/2
+  homectabuttonlink:
+    label: Button Link
+    type: page 
+    required: true
+    width: 1/2
 
 
   
