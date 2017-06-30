@@ -1,0 +1,43 @@
+.social-icons {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  .icon {
+    display: inline-block;
+    padding: 0 .8rem;
+    &:last-of-type {
+      padding-right: 0;
+    }
+  }
+  .icon-link {
+    display: block;
+    @include transition(all .3s ease);
+    width: 20px;
+    height: 20px;
+    &:hover {
+      transform: translateY(-1px);
+      opacity: .8;
+    }
+  }
+  .facebook {
+    background: url('../images/facebook.svg') no-repeat;
+  }
+  .youtube {
+    background: url('../images/youtube.svg') no-repeat;
+  }
+  .twitter {
+    background: url('../images/twitter.svg') no-repeat;
+  }
+  .linkedin {
+    background: url('../images/linkedin.svg') no-repeat;
+  }
+  .google+ {
+    background: url('../images/google_plus.svg') no-repeat;
+  }
+  .medium {
+    background: url('../images/medium.svg') no-repeat;
+  }
+  .instagram {
+    background: url('../images/instagram.svg') no-repeat;
+  }
+}

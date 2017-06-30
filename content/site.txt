@@ -10,7 +10,7 @@ Description: Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel e
 
 ----
 
-Copyright: © (date: Year) Copyright (link: https://endlyssdesigns.com text: Endlyss Designs)
+Copyright: © (date: Year) Copyright  (link: https://endlyssdesigns.com text: endlyssdesigns.com), Visit (link: https://coupleofcreatives.com text: Couple of Creatives) to check out my agency.
 
 ----
 
@@ -39,3 +39,29 @@ Globalctabuttontext: Let's Talk
 ----
 
 Globalctabuttonlink: contact
+
+----
+
+Social: 
+
+- 
+  social_title: Facebook
+  social_link: '#'
+- 
+  social_title: Twitter
+  social_link: '#'
+- 
+  social_title: LinkedIn
+  social_link: '#'
+- 
+  social_title: Instagram
+  social_link: '#'
+- 
+  social_title: YouTube
+  social_link: '#'
+- 
+  social_title: Medium
+  social_link: '#'
+- 
+  social_title: Google+
+  social_link: '#'

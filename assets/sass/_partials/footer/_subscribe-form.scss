@@ -1,0 +1,14 @@
+.form {
+	margin: .5rem 0 0 0;
+	.form-input::placeholder, 
+	.form-input:placeholder-shown {
+		color: $brand-secondary;
+	}
+	.form-input {
+		border-color: $brand-secondary;
+	}
+	.form-submit-icon {
+		background: url('../images/arrow-forward-dark.svg') no-repeat;
+		top: 5px;
+	}
+}

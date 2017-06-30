@@ -14,10 +14,6 @@ fields:
   description:
     label: Description
     type:  textarea
-    
-  copyright:
-    label: Copyright
-    type:  textarea
 
   branding:
     label: Brand Settings
@@ -63,4 +59,26 @@ fields:
     type: page
     width: 1/2
     require: true
+  
+  footer:
+    label: Footer 
+    type: headline
+  social:
+    label: Social Media
+    type: structure
+    style: table
+    fields:
+      social_title:
+        label: Network
+        type: text
+      social_link:
+        label: Link 
+        type: text
+
+
+  copyright:
+    label: Copyright
+    type:  textarea
+
+  
 
