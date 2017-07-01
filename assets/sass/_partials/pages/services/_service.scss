@@ -1,0 +1,68 @@
+.service {
+	padding: 1rem;
+
+		&:nth-child(1) {
+			.service-title {
+				&:before {
+					background: $brand-secondary;
+				}
+			}
+			.service-content {
+				background-image: url('../images/brand-strategy-icon.svg');
+				background-repeat: no-repeat;
+				background-position: bottom right;
+				background-size: 174px 182px;
+			}
+		}
+		&:nth-child(2) {
+			.service-title {
+				&:before {
+					background: $brand-primary;
+				}
+			}
+			.service-content {
+				background-image: url('../images/campaign-dev-icon.svg');
+				background-repeat: no-repeat;
+				background-position: right 370px;
+				background-size: 184px 139px;
+			}
+		}
+		&:nth-child(3) {
+			.service-title {
+				&:before {
+					background: #69B896;
+				}
+			}
+			.service-content {
+				background-image: url('../images/content-marketing-icon.svg');
+				background-repeat: no-repeat;
+				background-position: bottom right;
+				background-size: 162px 213px;
+			}
+		}
+	}
+	.service-content {
+		background: white;
+		padding: 2rem 2.5rem 10rem 2.5rem;
+		box-shadow: 0 1px 3px rgba(black, .08);
+
+		.service-title {
+			font-size: 1.8rem;
+			line-height: 2.4rem;
+			margin-bottom: .25rem;
+			position: relative;
+			&:before {
+				content: "";
+				position: absolute;
+				height: 2px;
+				width: 50px;
+				background: $brand-primary;
+				top: -1rem;
+				left: 0; 
+			}
+
+		}
+	.service-list p {
+		font-size: 1.1rem;
+	}
+}

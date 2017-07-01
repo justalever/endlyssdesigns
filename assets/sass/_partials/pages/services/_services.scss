@@ -1,0 +1,23 @@
+.services-intro {
+	.page-title {
+		margin-bottom: 0;
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			height: 4px;
+			width: 50px;
+			top: -2rem;
+			left: 50%;
+			background: $brand-primary;
+			margin-left: -25px;
+		}
+	
+	}
+}
+.services-block {
+	padding: 2rem 0;
+}
+
+@import "service";
+@import "form";

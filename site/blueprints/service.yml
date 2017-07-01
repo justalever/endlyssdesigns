@@ -1,0 +1,16 @@
+title: Service
+
+files: true
+
+pages: false
+
+status: visible
+  
+fields:
+  title:
+    label: Service Title
+    type: title
+
+  servicelist:
+    label: Service List
+    type: textarea

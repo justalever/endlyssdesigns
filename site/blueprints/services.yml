@@ -1,15 +1,67 @@
 title: Services
 
-pages: false
-
 files: true
+
   
 fields:
   title:
     label: Title
     type: title
-    
-  intro:
-    label: Intro
+  
+  subheading:
+    label: Subheading
     type: textarea
+
+  form:
+    label: Opt-in Form 
+    type: headline
+
+  sectionimage:
+    label: Opt-in Image
+    type: image 
     
+  sectiontitle:
+    label: Opt-in Title
+    type: text 
+
+  sectioncontent:
+    label: Opt-in Content
+    type: textarea
+
+  namelabel:
+    label: Name Label 
+    type: text
+    required: true 
+
+  email:
+    label: Email Label 
+    type: text 
+    required: true 
+  
+  emailplaceholder:
+    label: Email Placeholder Label 
+    type: text 
+
+  phone: 
+    label: Phone Label 
+    type: text 
+    required: true 
+
+  phoneplaceholder:
+    label: Phone Placeholder Label 
+    type: text 
+
+  datefield:
+    label: Date Label 
+    type: text 
+    required: true 
+
+  dateplaceholder:
+    label: Date Placeholder Label
+    type: text 
+
+  buttontext:
+    label: Button Text 
+    type: text 
+
+ 

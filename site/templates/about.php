@@ -6,7 +6,7 @@
 		<?php snippet('about/make-difference') ?>
 
 		<section class="instagram-feed block container">
-			<p class="social-cta-link">Follow me on <a href="#">Instagram</a> &amp; <a href="#">Snapchat</a></p>
+			<p class="social-cta-link">Follow me on <a href="https://instagram.com/endlyssdesigns">Instagram</a> &amp; <a href="#">Snapchat</a></p>
 				
 			<div class="feed">
 				<div id="instafeed" class="row"></div>
@@ -19,8 +19,8 @@
 
 	<?php snippet('global-cta') ?>
 
-<script src="assets/js/dist/instafeed.min.js"></script>
-<script>
+	<?= js("assets/js/dist/instafeed.min.js") ?>
+	<script>
 		var feed = new Instafeed({
 	  get: 'user',
 	  userId: '358869140',
