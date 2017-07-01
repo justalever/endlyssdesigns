@@ -1,0 +1,30 @@
+.make-difference {
+	padding: 9rem 0;
+	background: $brand-secondary; 
+	color: white;
+	font-size: 1.4rem;
+	.container {
+		position: relative;
+	}
+
+	.make-difference-title {
+		color: $brand-primary;
+		font-size: 2.25rem;	
+		margin-bottom: 1rem;
+	}
+	.make-difference-content {
+		 font-style: italic;
+	}
+	.make-difference-cta {
+			padding: 4rem 0 0 0;
+	}
+	.alyssa {
+		background-image: url('../images/alyssa-shoulders-crossed.png');
+		width: 599px;
+		height: 1111px;
+		position: absolute;
+		top: -16rem;
+		right: 0;
+		z-index: 2;
+	}
+}

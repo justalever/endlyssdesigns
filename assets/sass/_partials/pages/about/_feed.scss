@@ -1,0 +1,31 @@
+.instagram-feed {
+	padding: 6rem 0;
+	.social-cta-link {
+		font-family: $heading;
+		font-size: 1.5rem;
+		margin: 0 0 .8rem 0;
+	}
+
+	.feed {
+		background: white;
+		padding: 1rem 1rem .9rem 1.15rem;
+		position: relative;
+		z-index: 3;
+		box-shadow: 0 3px 8px rgba(black, .1);
+			@include breakpoint(medium) {
+				text-align: center;
+		 }
+		.image {
+			margin-bottom: -5px;
+		}
+		img {
+			max-width: 280px;
+			height: 280px;
+				@include breakpoint(medium) {
+					max-width: 100%;
+					text-align: center;
+			 }
+		}
+
+	}
+}

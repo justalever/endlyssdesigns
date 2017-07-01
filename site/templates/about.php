@@ -2,30 +2,40 @@
 
   <main class="main" role="main">
 		
-		<section class="about-content block container">
-			
-			<h1 class="about-title big-title text-center">
-				<?= $page->heading()->html() ?>
-			</h1>
-			<div class="about-subheading text-center">
-				<?= $page->subheading()->kirbytext() ?>
-			</div>
+		<?php snippet('about/about-content') ?>
+		<?php snippet('about/make-difference') ?>
 
-			<div class="row about-content-columns">
-				<div class="col-md-6 col-xs-12">
-					<div class="content-area">
-						<?= $page->leftcolumn()->kirbytext() ?>
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<div class="content-area">
-						<?= $page->rightcolumn()->kirbytext() ?>
-					</div>
-				</div>
+		<section class="instagram-feed block container">
+			<p class="social-cta-link">Follow me on <a href="#">Instagram</a> &amp; <a href="#">Snapchat</a></p>
+				
+			<div class="feed">
+				<div id="instafeed" class="row"></div>
 			</div>
 
 		</section>
+		 
+	
+		</main>
 
-  </main>
-<?php snippet('global-cta') ?>
+	<?php snippet('global-cta') ?>
+
+<script src="assets/js/dist/instafeed.min.js"></script>
+<script>
+		var feed = new Instafeed({
+	  get: 'user',
+	  userId: '358869140',
+	  /* 
+	  	TODO: Update ENV on production environment 
+		  Read how to create environment variables locally here:
+	  	https://stackoverflow.com/questions/11256008/setting-environment-variables-in-mamp 
+	  */
+	  accessToken: '<?php echo getenv("ENDLYSS_DESIGNS_INSTAGRAM"); ?>',
+	  template: '<div class="col-md-3 col-xs-12 image"><img src="{{image}}" /></div>',
+	  resolution: 'low_resolution',
+	  limit: 8
+	  
+	});
+	feed.run();
+</script>
+
 <?php snippet('footer') ?>

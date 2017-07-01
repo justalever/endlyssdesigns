@@ -27,3 +27,24 @@ fields:
     type: textarea
     width: 1/2
   
+  makedifference:
+    label: How I Make A Difference
+    type: headline
+
+  makedifferencetitle:
+    label: Title 
+    type: text 
+
+  makedifferencecontent:
+    label: Content
+    type: textarea
+    width: 3/4
+
+  makedifferencecite:
+    label: Citation
+    type: text
+    width: 1/4 
+
+  makedifferencecta:
+    label: Call to Action Block
+    type: textarea
