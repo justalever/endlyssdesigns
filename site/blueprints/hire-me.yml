@@ -1,0 +1,77 @@
+title: Hire Me
+
+files: false
+pages: false
+
+fields:
+  title:
+    label: Page Title
+    type:  text
+
+  introtitle:
+    label: Intro Title
+    type:  text
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  form:
+    label: Hire Me Form
+    type: headline
+
+  name:
+    label: Name Label
+    type: text 
+    required: true
+
+  email:
+    label: Email Label
+    type: text
+    required: true
+    width: 1/2
+
+  emailplaceholder:
+    label: Email Placeholder
+    type: text 
+    width: 1/2
+
+  # reasonforcontactlabel:
+  #   label: Reason For Contact Label 
+  #   type: text 
+  #   required: true
+  #   width: 1/2
+
+  # reasonforcontactplaceholder:
+  #   label: Reason For Contact Placeholder
+  #   type: text 
+  #   width: 1/2
+
+  message:
+    label: Message Label
+    type: text
+    required: true
+
+  sidebar:
+    label: Hire Me Sidebar
+    type: headline
+  
+  sidebartitle:
+    label: Sidebar Title 
+    type: text
+
+  widgets:
+    label: Widgets
+    type: structure
+    fields:
+      widget:
+        label: Widget 
+        type: textarea
+
+  socialcalltoaction:
+    label: Socials
+    type: textarea
+    
+  
+
+ 

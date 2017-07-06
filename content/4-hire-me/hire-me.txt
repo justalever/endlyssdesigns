@@ -1,0 +1,75 @@
+Title: Hire Me
+
+----
+
+Text: 
+
+----
+
+Intro: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+
+----
+
+Name: Name
+
+----
+
+Email: Email
+
+----
+
+Emailplaceholder: joe@email.com
+
+----
+
+Reasonforcontactlabel: Reason for contact
+
+----
+
+Reasonforcontact: 
+
+- 
+  reason: General Inquiry
+- 
+  reason: "I'd like to hire you"
+- 
+  reason: I have more questions
+
+----
+
+Message: Message
+
+----
+
+Introtitle: Let's talk
+
+----
+
+Reasonforcontactplaceholder: i.e. I have more questions...
+
+----
+
+Sidebartitle: General Information
+
+----
+
+Widget: 
+
+- 
+  widget: |
+    (email: alyssa@endlyssdesigns.com)
+    (tel: 5555555555)
+
+----
+
+Widgets: 
+
+- 
+  widget: |
+    Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+    (email: alyssa@endlyssdesigns.com)
+    (tel: 5555555555)
+
+----
+
+Socialcalltoaction: Follow me on (link: https://twitter.com/endlyssdesigns text: Twitter), (link: https://instagram.com/endlyssdesigns text: Instagram), (link: https://linkedin.com/in/alyssaleverenz text: LinkedIn), (link: https://facebook.com/endlyssdesigns text: Facebook), & (link: https://medium.com/@endlyssdesigns text: Medium)

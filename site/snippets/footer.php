@@ -40,5 +40,6 @@
    	</div>
   </footer>
 
+<?= js('assets/js/dist/app.min.js') ?>
 </body>
 </html>

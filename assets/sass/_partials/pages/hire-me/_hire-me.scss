@@ -1,0 +1,84 @@
+.hire-container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.hire-me-header {
+	padding-top: 1rem;
+	.big-title {
+		margin-bottom: 0;
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			height: 4px;
+			width: 50px;
+			top: -2rem;
+			left: 50%;
+			background: $brand-primary;
+			margin-left: -25px;
+		}
+	}
+	.intro {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+}
+.hire-me-content-container {
+	padding: 4rem 0;
+}
+.hire-me-form {
+	.form-group {
+		padding: .5rem 0;
+	}
+	.form-control {
+		border-radius: 25px;
+    border: 1px solid #dddddd;
+    padding: 10px 0 10px 20px;
+    width: 96%;
+    @include transition(ease .2s border-color);
+    &:focus, &:hover {
+    	outline: none;
+    	border-color: $brand-primary;
+    }
+	}
+	.message {
+		border-radius: 8px;
+		border: 1px solid #dddddd;
+		width: 97%;
+		height: 180px;
+		padding: 16px 0 10px 16px;
+		&:focus, &:hover {
+    	outline: none;
+    	border-color: $brand-primary;
+    }
+	}
+	.btn-submit {
+		border: none;
+		font-family: $body;
+		margin: 1rem 0;
+	}
+}
+
+.hire-me-sidebar {
+	.hire-me-sidebar-title {
+		margin: 0;
+	}
+	.widget {
+		font-size: 1rem;
+		p {
+			&:first-of-type {
+				margin-top: .5rem;
+			}
+		}
+	}
+}
+
+.socials {
+	padding-bottom: 4rem;
+}
+
+.socials, 
+.socials p {
+	font-size: 1.7rem;
+	font-family: $heading;
+}
