@@ -2,6 +2,10 @@
   list-style: none;
   margin: 1rem 0 0 0;
   padding: 0;
+    @include breakpoint(medium) {
+      margin: 1rem 0;
+   }
+
   .icon {
     display: inline-block;
     padding: 0 .8rem;
@@ -31,7 +35,7 @@
   .linkedin {
     background: url('../images/linkedin.svg') no-repeat;
   }
-  .google+ {
+  .googleplus {
     background: url('../images/google_plus.svg') no-repeat;
   }
   .medium {

@@ -5,7 +5,7 @@
 	display: flex;
 	flex-flow: row wrap;
 		@include breakpoint(medium) {
-			flex-direction: column;
+			display: none;
 	 }
 	li {
 		padding: 0 1rem;

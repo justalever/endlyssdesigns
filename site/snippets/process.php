@@ -3,7 +3,7 @@
 		<div class="process-intro row">
 			
 			<div class="col-md-10 col-xs-12">
-				<h2 class="process-intro-title big-title">
+				<h2 class="process-intro-title basic-title">
 					<?= $page->processtitle()->html() ?>
 				</h2>
 				<div class="process-intro-subheading">

@@ -6,8 +6,9 @@
 	position: relative;
 	z-index: 1;
 		@include breakpoint(medium) {
-			background-size: 357px 431px;
+			background-size: contain;
 			background-position: 0 0;
+			margin-bottom: 5rem;
 	 }
 }
 

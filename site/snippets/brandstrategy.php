@@ -1,7 +1,7 @@
 <section class="brand-strategy-block block">
 	<div class="container">
 		<div class="row center-xs">
-			<h2 class="brand-strategy-title">
+			<h2 class="brand-strategy-title basic-title">
 				<?= $page->brandstrategyblocktitle()->html() ?>
 			</h2>
 			<div class="brand-strategy-content">

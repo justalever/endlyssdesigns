@@ -9,4 +9,14 @@ h1,h2,h3,h4,h5,h6 {
 .big-title {
 	font-size: 2.8rem;
   line-height: 3rem;
+  	@include breakpoint(medium) {
+  		font-size: 2.1rem;
+  		line-height: 2.4rem;
+   }
+}
+.basic-title {
+	font-size: 2.2rem;
+		@include breakpoint(medium) {
+			font-size: 1.85rem;
+	 }
 }

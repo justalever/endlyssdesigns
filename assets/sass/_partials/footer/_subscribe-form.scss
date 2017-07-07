@@ -1,14 +1,31 @@
 .form {
-	margin: .5rem 0 0 9rem;
+	margin: .5rem 0 0 0;
+	display: block;
+	float: right;
+		@include breakpoint(medium) {
+			margin: 0;
+	 }
+	 .form-group {
+	 	text-align: right;
+	 }
 	.form-input::placeholder, 
 	.form-input:placeholder-shown {
 		color: $brand-secondary;
 	}
 	.form-input {
+		display: block;
 		border-color: $brand-secondary;
+		background: url('../images/arrow-forward-dark.svg') no-repeat 385px center;
+		background-size: 30px 30px;
+
+			@include breakpoint(medium) {
+				width: 300px;
+				background-position: right center;
+		 }
 	}
-	.form-submit-icon {
-		background: url('../images/arrow-forward-dark.svg') no-repeat;
-		top: 5px;
+	.form-submit {
+		display: none;
 	}
+
+
 }

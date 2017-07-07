@@ -63,5 +63,5 @@ Social:
   social_title: Medium
   social_link: '#'
 - 
-  social_title: Google+
+  social_title: GooglePlus
   social_link: '#'

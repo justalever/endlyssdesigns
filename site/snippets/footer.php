@@ -1,7 +1,7 @@
   <footer class="footer" role="contentinfo">
 		<div class="container-fluid">
 			<div class="row between-xs">
-				<div class="col-md-6 col-xs-12">
+				<div class="col-md-8 col-xs-12">
 					<div class="footer-logo">
 						<a href="<?= url() ?>" class="logo-footer">
 							<img src="assets/images/logo-dark.png" alt="<?= $site->title() ?>" />
@@ -15,15 +15,14 @@
 		 
 	      </div>
 
-				<div class="col-md-6 col-xs-12 text-right">
+				<div class="col-md-4 col-xs-12 text-right">
 					<ul class="social-icons">
 						<?php $socials = $site->social()->lower()->yaml();
 							foreach($socials as $social) : ?>
 
 							<li class="icon">
-								<a href="<?= $social['social_link'] ?>" 
-									 class="<?= $social['social_title']?> icon-link">
-									
+								<a href="<?php if($social['social_link']):?><?= $social['social_link'] ?><?php endif; ?>" 
+									 class="<?php if($social['social_link']):?><?= $social['social_title']?><?php endif; ?> icon-link">
 								</a>
 							</li>
 						

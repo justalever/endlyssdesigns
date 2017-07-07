@@ -1,4 +1,15 @@
+.footer-logo {
+		@include breakpoint(medium) {
+			text-align: center;
+	 }
+}
+
 .footer-copyright p {
 	font-size: .9rem;
 	margin: 0;
+		@include breakpoint(medium) {
+			text-align: center;
+			line-height: 1.1rem;
+			margin: .5rem 0;
+	 }
 }

@@ -4,4 +4,9 @@
 	@import "logo-copyright";
 	@import "social";
 	@import "subscribe-form";
+
+
+	@include breakpoint(medium) {
+		.text-right { text-align: center; }
+	}
 }

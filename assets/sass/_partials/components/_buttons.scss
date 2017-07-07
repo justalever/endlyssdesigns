@@ -14,6 +14,10 @@
 		background: lighten($brand-primary, 5%);
 		color: white;
 	}
+		@include breakpoint(medium) {
+			display: block;
+			text-align: center;
+	 }
 }
 
 .btn-secondary {
@@ -32,4 +36,8 @@
 		background: lighten($brand-secondary, 5%);
 		color: white;
 	}
+		@include breakpoint(medium) {
+			display: block;
+			text-align: center;
+	 }
 }

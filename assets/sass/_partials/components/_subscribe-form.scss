@@ -10,35 +10,23 @@
 		color: darken($brand-primary, 30%);		
 		font-size: 1rem;
 		font-family: $heading;
+		background: url('../images/arrow-forward.svg') no-repeat 385px center;
+		background-size: 30px 30px;
 		@include transition(background .3s ease);
 		&:focus {
 			outline: none;
 			border-color: darken($brand-primary, 20%);
 		}
-		&:hover {
-			background: rgba(white, .1);
-		}
+			@include breakpoint(medium) {
+				background-position: right center;
+		 }
+
+		
 	}
 	.form-input::placeholder,
 	.form-input:placeholder-shown {
 		color: white;
 	}
 
-	.form-submit-icon {
-		text-indent: -9999px;
-		border: none;
-		padding: 1rem;
-		background: url('../images/arrow-forward.svg') no-repeat;
-		background-size: 32px 32px;
-		background-position: center left;
-		position: absolute;
-		top: -5px;
-		right: 10px;
-		@include transition(all .2s ease);
-		&:hover {
-			transform: translateY(-1px);
-			opacity: .8;
-			cursor: pointer;
-		}
-	}
+	.form-submit { display: none; }
 }
