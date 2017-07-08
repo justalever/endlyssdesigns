@@ -1,10 +1,10 @@
-<?php snippet('header-home') ?>
-<?php snippet('hero-background') ?>
+<?php snippet('home/header-home') ?>
+<?php snippet('home/hero-background') ?>
 
   <main class="main" role="main">
-		<?php snippet('brandstrategy') ?>
-		<?php snippet('process') ?>
-		<?php snippet('home-cta') ?>
+		<?php snippet('home/brandstrategy') ?>
+		<?php snippet('home/process') ?>
+		<?php snippet('home/home-cta') ?>
   </main>
 <?php snippet('global-cta') ?>
 <?php snippet('footer') ?>
