@@ -1,3 +1,23 @@
+.hero-background {
+	height: 862px;
+	background-repeat: no-repeat;
+	background-position: -50px 0;
+	background-size: 714px 862px;
+	position: relative;
+	z-index: 1;
+		@include breakpoint(homepagehero) {
+			background-position: 0 0;
+			margin-bottom: 5rem;
+			background-size: 514px 662px;
+	 }
+	 	@include breakpoint(mediumlarge) {
+	 		margin-bottom: 8rem;
+	  }
+  	@include breakpoint(extrasmall) {
+  		background-size: contain;
+   }
+}
+
 .hero-content {
 	background: white url('../images/overlay-logo-effect.png') no-repeat bottom right;
 	width: 764px;
@@ -6,20 +26,35 @@
 	top: 185px;
 	left: 600px;
 	box-shadow: 0 10px 30px rgba(black, .1);
-		@include breakpoint(medium) {
-			left: 0;
-			width: 100%;
+
+		@media screen and (min-width: 1600px) { 
+				width: 900px;
+				height: 500px;
+		}
+		@include breakpoint(large) {
+			left: 50%;
+			width: 50%;
 			height: 100%;
 			background: none;
 			box-shadow: none;
 			height: auto;
-			top: 450px;
-
-	 }
+			top: 100px;
+		}
+	 	@include breakpoint(mediumlarge) {
+	 		left:0;
+	 		top: 660px;
+	 		width:100%;
+	  }
+	  @include breakpoint(extrasmall) {
+	  	top: 500px;
+	  }
 	
 	.hero-inner {
 		padding: 6rem 4rem 0 4rem;
 		position: relative;
+			@include breakpoint(large) {
+				padding: 3rem 2rem 0 2rem;
+			}
 			@include breakpoint(medium) {
 				padding: 2rem 1rem 0 1rem;
 		 }
@@ -46,7 +81,7 @@
 		position: absolute;
 		bottom: -182px;
 		right:0px;
-			@include breakpoint(medium) {
+			@include breakpoint(homepagehero) {
 				position: static;
 		 }
 		.hero-cta {
@@ -62,7 +97,7 @@
 			&:hover {
 				background: lighten($brand-primary, 5%);
 			}
-				@include breakpoint(medium) {
+				@include breakpoint(homepagehero) {
 					width: 100%;
 					display: block;
 					border-radius: 3px;

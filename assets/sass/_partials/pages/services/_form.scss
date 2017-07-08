@@ -79,6 +79,8 @@
 			max-width:100%;
 				@include breakpoint(medium) {
 					height: auto;
+					max-width: 100%;
+	
 			 }
 		}
 	}

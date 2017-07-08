@@ -1,5 +1,8 @@
 .service {
 	padding: 1rem;
+		@include breakpoint(medium) {
+			padding: 1rem 0;
+	 }
 
 		&:nth-child(1) {
 			.service-title {

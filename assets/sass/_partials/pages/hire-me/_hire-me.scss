@@ -25,6 +25,9 @@
 }
 .hire-me-content-container {
 	padding: 4rem 0;
+		@include breakpoint(medium) {
+			padding: 2rem 0;
+	 }
 }
 .hire-me-form {
 	.form-group {
@@ -40,6 +43,9 @@
     	outline: none;
     	border-color: $brand-primary;
     }
+  	@include breakpoint(medium) {
+  		width: 94%;
+   }
 	}
 	.message {
 		border-radius: 8px;
@@ -51,11 +57,18 @@
     	outline: none;
     	border-color: $brand-primary;
     }
+    @include breakpoint(medium) {
+  		width: 94%;
+   }
 	}
 	.btn-submit {
 		border: none;
 		font-family: $body;
 		margin: 1rem 0;
+			@include breakpoint(medium) {
+				display: block;
+				width: 100%;
+		 }
 	}
 }
 
@@ -75,10 +88,17 @@
 
 .socials {
 	padding-bottom: 4rem;
+		@include breakpoint(medium) {
+			padding-bottom: 2rem;
+			text-align: center;
+	 }
 }
 
 .socials, 
 .socials p {
 	font-size: 1.7rem;
 	font-family: $heading;
+		@include breakpoint(medium) {
+			font-size: 1.3rem;
+	 }
 }

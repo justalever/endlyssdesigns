@@ -38,7 +38,7 @@ Globalctabuttontext: Let's Talk
 
 ----
 
-Globalctabuttonlink: contact
+Globalctabuttonlink: hire-me
 
 ----
 

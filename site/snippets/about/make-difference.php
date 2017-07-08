@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-6 col-xs-12">
 				
-				<h3 class="make-difference-title">
+				<h3 class="make-difference-title basic-title">
 					<?= $page->makedifferencetitle()->html() ?>	
 				</h3>
 				

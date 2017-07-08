@@ -1,13 +1,17 @@
 /* Breakpoints */
 $cap: 1420px;
-$ml: 970px;
+$ml: 1000px;
 $m: 850px;
 $s: 740px;
 $xs: 500px;
+$homepagehero: 1240px;
 
 @mixin breakpoint($point) {
   @if $point == large {
     @media (max-width: $cap) { @content; }
+  }
+   @else if $point == homepagehero {
+    @media (max-width: $homepagehero) { @content; }
   }
    @else if $point == mediumlarge {
     @media (max-width: $ml) { @content; }

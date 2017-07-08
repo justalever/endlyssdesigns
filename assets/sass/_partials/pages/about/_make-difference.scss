@@ -3,14 +3,17 @@
 	background: $brand-secondary; 
 	color: white;
 	font-size: 1.4rem;
+		@include breakpoint(medium) {
+			padding: 3rem 0;
+	 }
 	.container {
 		position: relative;
 	}
 
 	.make-difference-title {
 		color: $brand-primary;
-		font-size: 2.25rem;	
 		margin-bottom: 1rem;
+
 	}
 	.make-difference-content {
 		 font-style: italic;
@@ -20,11 +23,16 @@
 	}
 	.alyssa {
 		background-image: url('../images/alyssa-shoulders-crossed.png');
+		background-repeat: no-repeat;
 		width: 599px;
 		height: 1111px;
 		position: absolute;
 		top: -16rem;
 		right: 0;
 		z-index: 2;
+			@include breakpoint(medium) {
+			 display: none;
+
+		 }
 	}
 }

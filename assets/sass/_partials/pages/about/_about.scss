@@ -23,6 +23,9 @@
 		.content-area {
 			padding: 0 3.5rem;
 			font-size: 1.15rem;
+				@include breakpoint(medium) {
+					padding: 0;
+			 }
 		}
 	}
 
