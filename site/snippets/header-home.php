@@ -9,7 +9,7 @@
   <meta name="description" content="<?= $site->description()->html() ?>">
   <?= css('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600') ?>
 
-
+ 
   <?= css('assets/css/style.css') ?>
 
 </head>
@@ -25,9 +25,10 @@
             <?php endif ?>
          </a>
         </div>
-        <div class="primary-menu">
-          <?php snippet('menu') ?>
-        </div>
+      <div class="primary-menu">
+       <div class="desktop-menu">
+        <?php snippet('menu') ?>
+       </div>
+       <?php snippet('global-menu') ?>
       </div>
-    </div>
   </header>

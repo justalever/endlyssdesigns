@@ -2,3 +2,20 @@
 @import "about/about";
 @import "services/services";
 @import "hire-me/hire-me";
+
+.page {
+	.mobile-menu {
+		#burger .bar {
+			background: $brand-secondary;
+		}
+		&.menu-opened {
+			#burger .bar {
+				background: white;
+			}
+			#markCircle {
+				fill: white;
+			}
+		}
+	}
+
+}

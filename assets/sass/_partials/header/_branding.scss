@@ -1,6 +1,9 @@
 .logo {
-	img {
-		width: 174px;
-		height: 73px;
-	}
+  img {
+    width: 174px;
+    height: 73px;
+  }
+  @include breakpoint(medium) {
+    display: none;
+  }
 }

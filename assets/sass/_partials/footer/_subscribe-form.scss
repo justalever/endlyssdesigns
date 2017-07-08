@@ -4,9 +4,13 @@
 	float: right;
 		@include breakpoint(medium) {
 			margin: 0;
+			float: none;
 	 }
 	 .form-group {
 	 	text-align: right;
+	 		@include breakpoint(medium) {
+	 			text-align: center;
+	 	 }
 	 }
 	.form-input::placeholder, 
 	.form-input:placeholder-shown {
@@ -19,8 +23,9 @@
 		background-size: 30px 30px;
 
 			@include breakpoint(medium) {
-				width: 300px;
-				background-position: right center;
+				width: 310px;
+				margin:0 auto;
+				background-position: 310px center;
 		 }
 	}
 	.form-submit {

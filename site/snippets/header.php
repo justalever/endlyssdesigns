@@ -13,7 +13,7 @@
   <?= css('assets/css/style.css') ?>
 
 </head>
-<body>
+<body class="page" >
 
   <header class="header" role="banner">
     <div class="container-fluid">
@@ -26,7 +26,10 @@
          </a>
         </div>
         <div class="primary-menu">
-          <?php snippet('menu') ?>
+          <div class="desktop-menu">
+            <?php snippet('menu') ?>
+          </div>
+          <?php snippet('global-menu') ?>
         </div>
       </div>
     </div>

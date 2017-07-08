@@ -50,7 +50,7 @@ Processctatext: Contact Me
 
 ----
 
-Processctalink: contact
+Processctalink: hire-me
 
 ----
 
@@ -123,4 +123,4 @@ Homectabuttontext: Schedule a Free Consultation
 
 ----
 
-Homectabuttonlink: contact
+Homectabuttonlink: hire-me
