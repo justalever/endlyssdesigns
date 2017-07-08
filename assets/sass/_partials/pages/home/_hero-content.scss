@@ -81,9 +81,10 @@
 		position: absolute;
 		bottom: -182px;
 		right:0px;
-			@include breakpoint(homepagehero) {
-				position: static;
-		 }
+		@include breakpoint(large) {
+					position: static;
+		}
+
 		.hero-cta {
 			background: $brand-primary;
 			color: white;
@@ -96,6 +97,9 @@
 			border-top-left-radius: 8px;
 			&:hover {
 				background: lighten($brand-primary, 5%);
+			}
+			@include breakpoint(large) {
+				border-radius: 3px;
 			}
 				@include breakpoint(homepagehero) {
 					width: 100%;

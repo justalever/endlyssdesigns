@@ -1,4 +1,4 @@
-<section class="service-form container block">
+<section class="service-form container block animated wow fadeIn">
 	<div class="row">
 		<div class="service-form-content col-md-5 col-xs-12">
 			<h2 class="service-opt-in-title">

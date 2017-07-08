@@ -3,7 +3,7 @@ $image = $page->heroimage()->toFile();
 ?>
 <div class="hero-background" 
 	style="background-image: url(<?= $image->url() ?>) ">
-	 	<div class="hero-content">
+	 	<div class="hero-content animated wow fadeInRight">
 	 		<div class="hero-inner">
 		 		<div class="hero-text">
 		 			<h1 class="hero-heading big-title">

@@ -21,7 +21,7 @@
 		<div class="row process-loop">
 		 	<?php foreach($page->processmodules()->toStructure() as $process) : ?>
 				<div class="col-md-4 col-xs-12">
-					<div class="process-module">
+					<div class="process-module wow animated fadeInUp" >
 						<h3 class="process-module-title">
 							<?= $process->title()->html() ?>
 						</h3>

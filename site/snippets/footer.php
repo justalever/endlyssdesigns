@@ -38,7 +38,7 @@
     
    	</div>
   </footer>
-
+<?= js('assets/js/dist/wow.min.js') ?>
 <?= js('assets/js/dist/app.min.js') ?>
 </body>
 </html>

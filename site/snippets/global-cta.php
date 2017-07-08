@@ -5,7 +5,7 @@
 				<div class="global-cta-heading">
 					<?= $site->globalctaheading()->kirbytext() ?>
 				</div>
-				<div class="global-cta-link">
+				<div class="global-cta-link animated wow shake">
 					<a class="btn-primary" 
 						 href="<?= $site->globalctabuttonlink()->html() ?>">
 						<?= $site->globalctabuttontext()->html() ?>

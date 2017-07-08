@@ -1,0 +1,57 @@
+@import "_partials/variables";
+
+$link-hover-color: lighten($brand-primary, 30%);
+$dark-border-color: darken($brand-primary, 10%);
+
+.input:focus {
+	border-color: $brand-primary;
+}
+.label abbr {
+	color: red;
+}
+
+.nav-icon,.topbar  {
+	background: $brand-primary;
+}
+
+.topbar {
+	.breadcrumb {
+		background: $brand-primary;
+	}
+}
+
+body.ltr .nav-icon-left, body.rtl .nav-icon-right {
+	border-right: 1px solid $dark-border-color;
+}
+body.ltr .nav-icon-right, body.rtl .nav-icon-left {
+	border-left: 1px solid $dark-border-color;
+}
+.nav-icon:hover {
+	color: $link-hover-color;
+}
+
+body.ltr .breadcrumb-label {
+	&:after {
+			background: $brand-primary;
+	}
+} 
+
+.breadcrumb-link {
+	&:hover {
+		color: $link-hover-color;
+	}
+	&:before {
+		background: $dark-border-color;
+	}
+	&:after {
+		background: $dark-border-color;
+	}
+}
+.search:after {
+	border-bottom-color: $brand-secondary;
+}
+.search-input {
+	background: $brand-secondary;
+	color: white;
+	&::-webkit-input-placeholder {color: white; }
+}

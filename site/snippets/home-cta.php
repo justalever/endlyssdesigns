@@ -5,7 +5,7 @@
 	<div class="container home-cta-inner">
 		<div class="row end-xs">
 			<div class="col-md-5 col-xs-12">
-				<div class="home-cta-content text-right">
+				<div class="home-cta-content text-right animated wow fadeInRight">
 					<div class="home-cta-text">
 						<?= $page->homectacopy()->kirbytext() ?>
 					</div>
