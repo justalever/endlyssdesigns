@@ -13,7 +13,7 @@ Icon
 /site/cache/*
 !/site/cache/index.html
 
-/site/config/config.php
+/site/config/config.endlyssdesigns.com.php
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
