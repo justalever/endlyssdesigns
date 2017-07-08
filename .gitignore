@@ -13,7 +13,7 @@ Icon
 /site/cache/*
 !/site/cache/index.html
 
-/site/config/*
+/site/config/config.php
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
